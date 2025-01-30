@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi San Valentín?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hola, mi amor 🤍</h1>
+        <p>Desde que te conocí, cada día ha sido más especial. <br> Y hoy quiero preguntarte algo importante...</p>
+        <h2>¿Quieres ser mi San Valentín? 🤍</h2>
+        <div class="buttons">
+            <button onclick="respuesta('Sí')">Sí 🤍</button>
+            <button onclick="respuesta('Obvio que sí')">Obvio que sí 🤍</button>
+        </div>
+        <img src="love.gif" alt="Corazones" class="love-image">
+    </div>
+
+    <script>
+        function respuesta(opcion) {
+            alert("Sabía que dirías " + opcion + "! Te amo con el alma, mi niña 🤍");
+        }
+    </script>
+</body>
+</html>
+
